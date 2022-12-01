@@ -18,7 +18,7 @@ public class InitialSelectionSort {
 	                if (x[i] > x[j]) {
 	                    temp = x[i];
 	                    x[i] = x[j];
-						x[j] = temp;
+											x[j] = temp;
 	                }
 	            } // end of inner for loop
 	        } // end of outer for loop
