@@ -10,7 +10,7 @@ class testInitalSelectionSort {
 		testPositive();
 		testNegative();
 	}
-		    public testSelectionSort() {
+		    public testInitalSelectionSort() {
 		    }
 
 		    public void testPositive(){
@@ -28,7 +28,7 @@ class testInitalSelectionSort {
 		        Sortedarr[3] = 9;
 		        Sortedarr[4] = 10;
 
-		        temp1 = new SelectionSort();
+		        temp1 = new InitialSelectionSort();
 		        arr = temp1.basicSelectionSort(arr);
 
 		        for (int i = 0; i < arr.length; ++i) {
@@ -54,7 +54,7 @@ class testInitalSelectionSort {
 		        Sortedarr[3] = -7;
 		        Sortedarr[4] = -2;
 
-		        temp1 = new SelectionSort();
+		        temp1 = new InitialSelectionSort();
 		        arr = temp1.basicSelectionSort(arr);
 
 		        for (int i = 0; i < arr.length; ++i) {
